@@ -1,0 +1,476 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  background: #191919;
+}
+
+/* header styles start */
+.wrapperh {
+  width: 1440px;
+  margin: 0 auto;
+}
+.wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 43px;
+  padding-bottom: 83px;
+}
+
+.header__logo {
+  padding-left: 40px;
+}
+
+.header__list {
+  display: flex;
+}
+.item {
+  margin-right: 40px;
+}
+.item:last-child {
+  margin-right: 70px;
+}
+.header__link {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px; /* 158.824% */
+  color: #fff;
+}
+.active {
+  color: #118da8;
+}
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 0.6;
+}
+/* header styles end */
+
+/* Website main content styles starts  */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  margin-bottom: 93px;
+}
+
+.wrappermain {
+  width: 1300px;
+  margin: 0 auto;
+}
+.zaqolovok {
+  font-size: 70px;
+  color: white;
+  font-weight: 400;
+  line-height: 88px; /* 125.714% */
+  letter-spacing: 3.2px;
+  margin-bottom: 90px;
+}
+.zaqolovokdiv {
+  width: 526px;
+  margin-top: 294px;
+}
+.Next {
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 88px; /* 117.333% */
+  letter-spacing: 3.2px;
+}
+.Level {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px; /* 110% */
+  letter-spacing: 3.2px;
+}
+.listen {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  color: #fff;
+  margin-bottom: 17px;
+}
+
+.platforms {
+  display: flex;
+}
+.plat {
+  margin-right: 17px;
+}
+/* HEADER2 styles for "LATEST EPISODES" starts   */
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.latest {
+  color: #fff;
+  font-weight: 400;
+  line-height: 79.2px; /* 123.75% */
+  letter-spacing: 2.88px;
+  font-size: 64px;
+}
+
+.button1 {
+  border-radius: 6px;
+  background: #118da8;
+  width: 178px;
+  height: 51px;
+}
+
+.buttond {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+}
+.buttond:hover {
+  opacity: 0.6;
+}
+/* HEADER2 for "LATEST EPISODES" ends  */
+
+.block {
+  display: grid;
+  grid-template-columns: 389px 778px;
+  grid-gap: 53px;
+  border-radius: 32px;
+  background: #000;
+  height: 545px;
+  margin-bottom: 60px;
+  padding: 40px;
+}
+
+/* SLIDES styles start */
+.block512 {
+  height: 512px;
+}
+.bottom {
+  width: 73px;
+  height: 27px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #191919;
+  margin-bottom: 48px;
+}
+.gear1 {
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.episode {
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+  font-size: 17px;
+  color: #118da8;
+  margin-bottom: 18px;
+}
+.should {
+  font-weight: 400;
+  line-height: 70.4px; /* 110% */
+  letter-spacing: 2.56px;
+  font-size: 64px;
+  color: #fff;
+  width: 701px;
+  margin-bottom: 28px;
+}
+.is {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  color: rgba(255, 255, 255, 0.7);
+  width: 757px;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.button2 {
+  width: 208px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #118da8;
+}
+.buttonr {
+  color: #fff;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+.buttonr:hover {
+  opacity: 0.6;
+}
+
+.buttondva {
+  width: 136px;
+  height: 27px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #191919;
+  margin-bottom: 48px;
+}
+
+.dva {
+  width: 676px;
+}
+.dva1 {
+  width: 773px;
+}
+
+.mix1 {
+  height: 100%;
+  width: 389px;
+}
+
+.shouldtwo {
+  width: 611px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70.4px; /* 123.509% */
+  letter-spacing: 2.56px;
+}
+
+.three {
+  width: 767px;
+}
+
+.SAMEBLOCKS:last-child {
+  margin-bottom: 160px;
+}
+/* SLIDES ends */
+/* Website main content styles ends */
+
+/* Website not main content styles starts */
+.wrapper2 {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+.thirdsec {
+  display: grid;
+  grid-template-columns: 590px 650px;
+  grid-gap: 60px;
+  height: 743px;
+}
+
+.strelka {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.strelka1 {
+  position: absolute;
+  width: 71px;
+  height: 38px;
+  top: 36px;
+  left: 15px;
+}
+.kruq {
+  position: relative;
+  border-radius: 400px;
+  background: #118da8;
+  width: 112px;
+  height: 112px;
+  margin-bottom: 20px;
+}
+
+.siniy {
+  color: #118da8;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+.jacob {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 79.2px; /* 121.846% */
+  letter-spacing: 2.88px;
+  margin-bottom: 28px;
+}
+.backg1 {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-size: 22px;
+
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  margin-bottom: 33px;
+}
+
+/* Website not main content styles ends */
+
+/* Input area styles starts */
+.grid_for_subscribe {
+  display: grid;
+  grid-template-columns: 642px 658px;
+  border-radius: 32px;
+  background: #000;
+  height: 387px;
+}
+.one1 {
+  padding: 85px 0 0 60px;
+}
+.emailnew {
+  color: #118da8;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.subscribe {
+  color: #fff;
+
+  font-size: 72px;
+
+  font-weight: 400;
+  line-height: 79.2px; /* 110% */
+  letter-spacing: 2.88px;
+  width: 431px;
+}
+
+.inputplace {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 60px 75px 76px;
+}
+
+input {
+  padding: 26px 0 27px 19px;
+  border: 1px solid #191919;
+  background: #191919;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 522px;
+  margin-top: 10px;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  font-size: 24px;
+
+  font-weight: 400;
+  line-height: 28.8px; /* 120% */
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-size: 24px;
+
+  font-weight: 400;
+  line-height: 28.8px; /* 120% */
+}
+.Su {
+  color: rgba(255, 255, 255, 0.7);
+
+  font-size: 15px;
+
+  font-weight: 700;
+  line-height: 28.8px; /* 192% */
+
+  width: 87px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #118da8;
+}
+.Su:hover {
+  opacity: 0.6;
+}
+/* Input area styles ends */
+
+/* Website cards styles start */
+.gridkvadrati {
+  display: grid;
+  grid-template-columns: repeat(3, 423px);
+
+  grid-gap: 16px;
+}
+
+.div {
+  background: #000;
+  border-radius: 32px;
+  width: 423px;
+  min-height: 321px;
+  padding: 54px 0 0 50px;
+}
+.zvezdi {
+  margin-bottom: 21px;
+}
+.vtoroye {
+  margin-bottom: 19px;
+  color: #fff;
+  width: 313px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px; /* 120% */
+}
+.tretye {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px; /* 120% */
+}
+.yellow {
+  margin-right: 5px;
+}
+.salam {
+  width: 288px;
+}
+.sagol {
+  width: 301px;
+}
+.vise {
+  height: 364px;
+}
+/* Website cards styles end */
+
+/* Footer styles starts */
+.podval {
+  display: grid;
+  grid-template-columns: 447.141px 178.844px 178.844px 447.141px;
+  grid-gap: 16px;
+}
+.sekil {
+  margin-bottom: 20px;
+}
+.social img {
+  margin-right: 10px;
+}
+.spisok li {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+}
+.spisok li:hover,
+li:focus,
+li:active {
+  opacity: 0.6;
+}
+/* Footer styles konec */
